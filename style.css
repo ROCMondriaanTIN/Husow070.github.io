@@ -1,0 +1,28 @@
+
+
+
+#header .a:hover{
+    color: #fff;
+}
+
+.row{
+    margin-top: 150px;
+}
+.thmaswitch {
+    display: flex ;
+    justify-content: center;
+    height: 10vh;
+    font-family: sans-serif cursive;
+}
+
+.theme-switcher{
+    margin-right: 20px;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: rgba(red, green, blue, alpha);
+    box-shadow: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+

@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Phaser</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Home Pagina</title>
+</head>
+<body>
+    <div id="header">
+        <nav class="navbar navbar-expand-sm nav bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="Index.Html"class="navbar-brand"><h3>Home</h3></a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="Projecten.HTML" class="nav-link">Projecten</a></li>
+                    <li class="nav-item"><a href="Vaardigheden.Html" class="nav-link">Vaardigheden</a></li>
+                    <li class="nav-item"><a href="CV.HTML" class="nav-link">CV</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!--showcase-->
+<div id="bg-img"></div>
+
+    <!--over mijzelf-->
+    <div class="thmaswitch"></div>
+    <button><div id="dark" class="theme-switcher">Dark</div></button>
+    <button><div id="light" class="theme-switcher">Light</div></button>
+    </div>
+    <div id="overmijzelf">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="aboutdata">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="img/Huseyin.png" width="250" height="250" class="img-fluid rounded-top mx-5">
+                                    <div class="media-body">
+                                        <h3 class="display-4 ml-3">Huseyin Kocibar</h3>
+                                        <p class="text-muted ml-5">Student ROC Mondriaan</p>
+                                        <div class="container">
+                                            <table class="table table-responsive ml-3">
+                                                <tr>
+                                                    <td>Leeftijd</td>
+                                                    <td>:</td>
+                                                    <td>22 Jaar</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Student</td>
+                                                    <td>:</td>
+                                                    <td>ICT Niveau 4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>School</td>
+                                                    <td>:</td>
+                                                    <td>ROC Mondriaan Tinwerf 1</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div id="footer">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <p class="bg-secondary text-white">@2021 - Huseyin Kocibar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+</div>
+<script src="themaswitcher.js"></script>
+</body>
 </html>
