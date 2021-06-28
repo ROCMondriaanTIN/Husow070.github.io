@@ -25,4 +25,6 @@
     text-decoration: none;
 }
 
-
+*{
+    transition: 1s;
+}
