@@ -5,7 +5,7 @@ let player1 = "X";
 let player2 = "O";
 let playturn = 1;
 let currentplayer = player1;
-var winner = document.querySelector("#win");
+let winner = document.querySelector("#win");
 let winCombos = [
   [0, 1, 2],
   [3, 4, 5],
@@ -16,8 +16,8 @@ let winCombos = [
   [0, 4, 8],
   [2, 4, 6]
 ];
-var whoWon = null
-var lastTurn = null
+let whoWon = null
+let lastTurn = null
 let b1 = document.getElementById('1')
 let b2 = document.getElementById('2')
 let b3 = document.getElementById('3')
@@ -28,8 +28,8 @@ let b7 = document.getElementById('7')
 let b8 = document.getElementById('8')
 let b9 = document.getElementById('9')
 let clicked = []
-var isFullNested
-var isWin = false
+let isFullNested
+let isWin = false
 
 
 
@@ -96,25 +96,11 @@ const handleBoxClick = (e) => {
 };
 
 
-//const checkWinner = () => {
-//    winCombos.forEach((combo) => {
-//        if (cellBOX[combo[0]].textContent
-//            && cellBOX[combo[0]].textContent === cellBOX[combo[1]].textContent
-//            && cellBOX[combo[0]].textContent === cellBOX[combo[2]].textContent) {
-//            winner = 'cellBOX';
-//            alert("Winner!")
-//        }
-//    })
-//}
 
     
-//event listeners
+
 
 reset.addEventListener("click", (e) =>{
-  //cellBOX.textContent = null
-  //for(box = 1; box < 9; box++){
-  //  b1.textContent = null
-  //}
   b1.textContent = null
   b2.textContent = null
   b3.textContent = null

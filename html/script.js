@@ -14,7 +14,7 @@
     if (resultNum) { // If a result was displayed, reset number
       currentNum = this.getAttribute("value");
       resultNum = "";
-    } else { // Otherwise, add digit to previous number (this is a string!)
+    } else { 
       currentNum += this.getAttribute("value");
     }
 
@@ -58,15 +58,15 @@
     else if (operator == "divided by"){
       resultNum = oldNum / currentNum;
     }
-    else { // If equal is pressed without an operator, keep number and continue
+    else { // 
       resultNum = currentNum;
     }
 
-    // Display result, finally!
+    
     viewer.innerHTML = resultNum;
     equals.setAttribute("result", resultNum);
 
-    // Now reset oldNum & keep result
+    
     oldNum = 0;
     currentNum = resultNum;
 
@@ -77,7 +77,7 @@
 
 
 
-  // When: Clear button is pressed. Clear everything
+  
   const clearAll = function() {
     oldNum = "";
     currentNum = "";
